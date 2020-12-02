@@ -8,7 +8,7 @@
   <div class="col-lg-9 col-md-9 topic-list">
     @if (isset($category))
       <div class="alert alert-info" role="alert">
-        {{ $category->name }} ：{{ $category->description }}
+        {{ $category->name }} ：{!! $category->description !!}
       </div>
     @endif
 
@@ -16,11 +16,13 @@
 
       <div class="card-header bg-transparent">
         <ul class="nav nav-pills">
+          <!--
           <li class="nav-item">
             <a class="nav-link {{ active_class( ! if_query('order', 'recent')) }}" href="{{ Request::url() }}?order=default">
               最后回复
             </a>
           </li>
+          -->
           <li class="nav-item">
             <a class="nav-link {{ active_class(if_query('order', 'recent')) }}" href="{{ Request::url() }}?order=recent">
               最新发布
