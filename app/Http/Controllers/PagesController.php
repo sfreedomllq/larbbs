@@ -8,7 +8,8 @@ class PagesController extends Controller
 {
     public function root()
     {
-        return view('pages.root');
+        //return view('pages.root');
+        return view('topic.index');
     }
 
     public function permissionDenied()
