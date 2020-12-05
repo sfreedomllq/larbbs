@@ -20,6 +20,7 @@
     </a>
   </div>
 </div>
+@endguest
 
 @if (count($active_users))
   <div class="card mt-4">
