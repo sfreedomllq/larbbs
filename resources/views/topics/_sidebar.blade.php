@@ -1,3 +1,18 @@
+@guest
+<div class="card ">
+  <div class="card-body" style="font-weight: 800;">
+    <p>去挥霍和珍惜是同一件事情</p>
+    <p>我所有的何妨，何必</p>
+    <p>何其荣幸</p>
+    <p>在必须发现我们终将一无所有前</p>
+    <p>至少你可以说</p>
+    <p>我懂，活着的，最寂寞</p>
+    <p>我拥有的都是侥幸啊</p>
+    <p>失去的，都是人生</p>
+    <p>当你不遗忘也不想曾经</p>
+  </div>
+</div>
+@else
 <div class="card ">
   <div class="card-body">
     <a href="{{ route('topics.create') }}" class="btn btn-success btn-block" aria-label="Left Align">

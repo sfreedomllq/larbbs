@@ -24,7 +24,8 @@
           </li>
           -->
           <li class="nav-item">
-            <a class="nav-link {{ active_class(if_query('order', 'recent')) }}" href="{{ Request::url() }}?order=recent">
+            <!-- <a class="nav-link {{ active_class(if_query('order', 'recent')) }}" href="{{ Request::url() }}?order=recent"> -->
+            <a class="nav-link active_class" href="{{ Request::url()}}?order=recent">
               最新发布
             </a>
           </li>
