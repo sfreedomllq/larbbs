@@ -8,7 +8,14 @@
   <div class="col-lg-9 col-md-9 topic-list">
     @if (isset($category))
       <div class="alert alert-info" role="alert">
-        {{ $category->name }} ：{!! $category->description !!}
+        {{ $category->name }} ：</br>{!! $category->description !!}
+      </div>
+    @else
+      <div class="alert alert-info" role="alert">
+        <span>只愿阴霾不掩光</span></br>
+        <span>无需长醉不复醒</span></br>
+        <span>千金美艳纵金迷</span></br>
+        <span>尽欢得意场场醉</span></br>
       </div>
     @endif
 
