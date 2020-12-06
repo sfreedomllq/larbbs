@@ -12,10 +12,8 @@
       </div>
     @else
       <div class="alert alert-info" role="alert">
-        <span>只愿阴霾不掩光</span></br>
-        <span>无需长醉不复醒</span></br>
-        <span>千金美艳纵金迷</span></br>
-        <span>尽欢得意场场醉</span></br>
+        <span>为了不让那满心的想法陨烂成泥</span></br></br>
+        <span>为了已成淤泥的思想上绽放新的花朵</span>
       </div>
     @endif
 
